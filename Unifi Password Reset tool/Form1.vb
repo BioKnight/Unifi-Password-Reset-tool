@@ -4,6 +4,9 @@ Imports System.Security
 
 Public Class Form1
 
+    ' quickhash.com
+    ' SHA-512 / crypt(3) / $6$
+    Private Const SALT As String = "9Ter1EZ9$lSt6"
     Private server As New MongoServerAddress("Localhost", 27117)
     Private dbsettings As New MongoClientSettings
     Private client As MongoClient
@@ -16,8 +19,8 @@ Public Class Form1
 
         client = New MongoClient(dbsettings)
         Dim db As MongoDatabaseBase = client.GetDatabase("ace")
-        Dim Admin As New UserAccount(1, "Admin", "randycmiller1981@gmail.com", "MyPass")
-
+        'Dim Admin As New UserAccount(1, "Admin", "randycmiller1981@gmail.com", "MyPass")
+        Dim col = db.ListCollectionNames()
     End Sub
 End Class
 

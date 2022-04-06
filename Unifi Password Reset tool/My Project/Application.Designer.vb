@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Unifi_Password_Reset_tool.Form1
+            Me.MainForm = Global.Unifi_Password_Reset_tool.frm_Main
         End Sub
     End Class
 End Namespace

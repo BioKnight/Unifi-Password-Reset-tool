@@ -4,7 +4,7 @@ Imports System.Text
 Imports System.Security.Cryptography
 Imports CryptSharp
 
-Public Class Form1
+Public Class frm_Main
 
     Const HashedPassword = "$6$ybLXKYjTNj9vv$dgGRjoXYFkw33OFZtBsp1flbCpoFQR7ac8O0FrZixHG.sw2AQmA5PuUbQC/e5.Zu.f7pGuF7qBKAfT/JRZFk8/"
     Private server As New MongoServerAddress("Localhost", 27117)

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frm_Main
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -105,7 +105,7 @@ Partial Class Form1
         Me.btn_Reset.Text = "Reset"
         Me.btn_Reset.UseVisualStyleBackColor = True
         '
-        'Form1
+        'frm_Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -118,8 +118,8 @@ Partial Class Form1
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.lblUsername)
         Me.Controls.Add(Me.lstAccounts)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "frm_Main"
+        Me.Text = "Unifi Controller Password Reset Tool"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
